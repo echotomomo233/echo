@@ -1,6 +1,6 @@
-# 实现一个函数 is_prime：它接受一个正的整数参数 n，返回 n 是否是一个素数。素数指能整除它的数只有 1 和它自己，且不包括 1 的数。
-# input:一个正整数 n
-# output:True 或 False
+# to achieve a function 'is_prime'：to judge if a positive integer is prime number
+# input:a positive integer 'n'
+# output:True or False
 
 def is_prime(n): 
     for a in range(2,n):
